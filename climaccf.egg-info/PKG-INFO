@@ -1,3 +1,48 @@
+Metadata-Version: 2.1
+Name: climaccf
+Version: 1.0
+Summary: Calculation of Algorithmic Climate Change Functions
+Author: Abolfazl Simorgh
+Author-email: abolfazl.simorgh@uc3m.es
+License: lgpl-3.0
+Keywords: Climate Impacts of Aviation,Algorithmic Climate Change Functions,Climate Hotspots,Non-CO2,Emissions
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+License-File: COPYING
+License-File: COPYING.LESSER
+Requires-Dist: setuptools>=75.1.0
+Requires-Dist: setuptools_scm~=8.1.0
+Requires-Dist: pint~=0.24.3
+Requires-Dist: xarray~=2024.10.0
+Requires-Dist: numpy
+Requires-Dist: metpy~=1.6.3
+Requires-Dist: h5netcdf
+Requires-Dist: scipy
+Requires-Dist: hyperopt
+Requires-Dist: pyparsing
+Requires-Dist: pandas
+Requires-Dist: casadi
+Requires-Dist: tomli
+Requires-Dist: matplotlib
+Requires-Dist: geojsoncontour
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+Requires-Dist: PyYAML
+Requires-Dist: pyproj
+Requires-Dist: pytest>=6.0
+
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6977272.svg)](https://doi.org/10.5281/zenodo.6977272)
 
 # CLIMaCCF Library
