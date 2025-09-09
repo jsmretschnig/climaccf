@@ -573,7 +573,7 @@ def get_Fin(self):
     Fin = np.zeros (self.ds.t.values.shape)
     S = 1360  # W/m2, Solar constant
 
-    days_of_year = self.ds.time.dt.dayofyear.values - 1  # 1 to 365 for regular years, and 1 to 366 for leap years
+    days_of_year = self.ds.time.dt.dayofyear.values  # 1 to 365 for regular years, and 1 to 366 for leap years
     deltas = -23.44 * np.cos(np.deg2rad(360 / 365 * (days_of_year + 10)))
     thetas = [
         np.sin(np.deg2rad(self.lat)) * np.sin(np.deg2rad(delta)) + np.cos(np.deg2rad(self.lat)) * np.cos(np.deg2rad(delta))
